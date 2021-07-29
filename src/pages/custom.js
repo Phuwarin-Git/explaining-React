@@ -12,6 +12,7 @@ export const custom = () => {
             <p>1. สร้างด้วย Fucntional Component และ ชื่อ class ต้องเป็นตัวพิมพ์ใหญ่ เท่านั้น</p>
             <p>2. ต้องเรียก Hook ที่ส่วน Top Level ของ function เท่านั้น</p>
             <p>3. เป็นข้อที่แตกต่างคือ ต้องตั้งชื่อขึ้นมาเอง และต้องขึ้นต้นด้วยคำว่า use (ตามตัวอย่างจะเป็น useFetch)</p>
+            <p>4. ตอนเรียกใช้จะเป็น const {"variable = CustomhookName(parameter)"} จะต้องมีการส่ง parameter ไปด้วย ตามตัวอย่างจะเป็น url ของ API ที่ต้องการ fetch</p>
             <img src={"https://scontent.fcnx3-1.fna.fbcdn.net/v/t39.30808-6/205567565_4363187380410047_8708429292210497018_n.jpg?_nc_cat=101&ccb=1-3&_nc_sid=730e14&_nc_ohc=BtaO9lg1-goAX-iXQJj&_nc_ht=scontent.fcnx3-1.fna&oh=9e9a333fd71d223a4dbde504f8b3d0bc&oe=61081493"} />
             <br /><br />
             <h3>Component ที่เรียกใช้</h3>

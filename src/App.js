@@ -9,9 +9,9 @@ import { classCom } from "./pages/classCom";
 import { functional } from "./pages/functional";
 import { hook } from "./pages/hook";
 import { custom } from "./pages/custom";
-import { props } from "./pages/props";
+import { Props } from "./pages/props";
 import { state } from "./pages/state";
-import { fetch } from "./pages/fetch"
+import { Fetch } from "./pages/fetch"
 import { context } from "./pages/context";
 import { styled } from "./pages/styled"
 
@@ -27,9 +27,9 @@ function App() {
             <Nav.Link href="/functional">Functional Component</Nav.Link>
             <Nav.Link href="/hook">Hook</Nav.Link>
             <Nav.Link href="/custom">Custom Hook</Nav.Link>
-            <Nav.Link href="/props">Props</Nav.Link>
+            <Nav.Link href="/Props">Props</Nav.Link>
             <Nav.Link href="/state">State</Nav.Link>
-            <Nav.Link href="/fetch">Fetch</Nav.Link>
+            <Nav.Link href="/Fetch">Fetch</Nav.Link>
             <Nav.Link href="/context">Context API</Nav.Link>
             <Nav.Link href="/styled">Styled Component</Nav.Link>
           </Nav>
@@ -41,9 +41,9 @@ function App() {
         <Route path="/functional" component={functional}></Route>
         <Route path="/hook" component={hook}></Route>
         <Route path="/custom" component={custom}></Route>
-        <Route path="/props" component={props}></Route>
+        <Route path="/Props" component={Props}></Route>
         <Route path="/state" component={state}></Route>
-        <Route path="/fetch" component={fetch}></Route>
+        <Route path="/Fetch" component={Fetch}></Route>
         <Route path="/context" component={context}></Route>
         <Route path="/styled" component={styled}></Route>
         <Route path="/:id">
