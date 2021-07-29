@@ -1,23 +1,55 @@
-import logo from './logo.svg';
+
 import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import { Nav, Container } from 'react-bootstrap';
+
+import Navbar from 'react-bootstrap/Navbar'
+import { Route, Switch } from "react-router-dom";
+import { classCom } from "./pages/classCom";
+import { functional } from "./pages/functional";
+import { hook } from "./pages/hook";
+import { custom } from "./pages/custom";
+import { props } from "./pages/props";
+import { state } from "./pages/state";
+import { fetch } from "./pages/fetch"
+import { context } from "./pages/context";
+import { styled } from "./pages/styled"
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+
+      <Navbar bg="dark" variant="dark">
+        <Container>
+          <Nav className="me-auto">
+            <Nav.Link href="/">Class Component</Nav.Link>
+            <Nav.Link href="/functional">Functional Component</Nav.Link>
+            <Nav.Link href="/hook">Hook</Nav.Link>
+            <Nav.Link href="/custom">Custom Hook</Nav.Link>
+            <Nav.Link href="/props">Props</Nav.Link>
+            <Nav.Link href="/state">State</Nav.Link>
+            <Nav.Link href="/fetch">Fetch</Nav.Link>
+            <Nav.Link href="/context">Context API</Nav.Link>
+            <Nav.Link href="/styled">Styled Component</Nav.Link>
+          </Nav>
+        </Container>
+      </Navbar>
+
+      <Switch>
+        <Route exact path="/" component={classCom}></Route>
+        <Route path="/functional" component={functional}></Route>
+        <Route path="/hook" component={hook}></Route>
+        <Route path="/custom" component={custom}></Route>
+        <Route path="/props" component={props}></Route>
+        <Route path="/state" component={state}></Route>
+        <Route path="/fetch" component={fetch}></Route>
+        <Route path="/context" component={context}></Route>
+        <Route path="/styled" component={styled}></Route>
+        <Route path="/:id">
+          <p>Error 404 page not found</p>
+        </Route>
+      </Switch>
     </div>
   );
 }
