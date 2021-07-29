@@ -4,7 +4,7 @@ export const classCom = () => {
         <div style={{ margin: 20 }}>
             <h1>Class Component</h1>
             <br />
-            <img src={"https://scontent.fcnx3-1.fna.fbcdn.net/v/t39.30808-6/225732701_4363009697094482_3657101982403503912_n.jpg?_nc_cat=103&ccb=1-3&_nc_sid=730e14&_nc_ohc=fnXmMaTLS0gAX95IpWn&_nc_ht=scontent.fcnx3-1.fna&oh=4ba8e5496b9e42ec7fab5594d18a12fb&oe=6106C581"} />
+            <img src={"https://bit.ly/3BS65pp"} alt="ClassComponent" />
             <br />
             <br />
             <p>Class component คือ การสร้าง component แบบเก่าซึ่งจะต้องมีการ extends มาจาก React.component </p>
@@ -17,9 +17,9 @@ export const classCom = () => {
                 ต่างจาก functional component ที่จะเป็น import  {"{ClassName}"} from "..."
             </p>
             <h3>import แบบ Class Component</h3>
-            <img src={"https://scontent.fcnx3-1.fna.fbcdn.net/v/t39.30808-6/218239836_4363043657091086_1879748527072502764_n.jpg?_nc_cat=102&ccb=1-3&_nc_sid=730e14&_nc_ohc=GzINBzIm9sMAX8oN96B&_nc_ht=scontent.fcnx3-1.fna&oh=1dd7fb072ba910524da3d347909d1d10&oe=61073F98"} />
+            <img src={"https://bit.ly/3fajRdb"} alt="ClassComponent" />
             <h3>import แบบ Functional Component</h3>
-            <img src={"https://scontent.fcnx3-1.fna.fbcdn.net/v/t39.30808-6/217616728_4363043053757813_7605800418420835344_n.jpg?_nc_cat=102&ccb=1-3&_nc_sid=730e14&_nc_ohc=4qZZKwi32EUAX-jyUtZ&_nc_ht=scontent.fcnx3-1.fna&oh=460055cf73a7a53cf8a99636c5657453&oe=6106E375"} />
+            <img src={"https://bit.ly/2V30lsn"} alt="ClassComponent" />
 
 
         </div>

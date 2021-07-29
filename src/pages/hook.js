@@ -2,7 +2,7 @@ export const hook = () => {
     return (
         <div style={{ margin: 20 }}>
             <h1>Hook</h1>
-            <img src={"https://scontent.fcnx3-1.fna.fbcdn.net/v/t39.30808-6/212120394_4363129840415801_282385512464882675_n.jpg?_nc_cat=104&ccb=1-3&_nc_sid=730e14&_nc_ohc=dCOs2_B_Xf8AX8Vs7y2&_nc_ht=scontent.fcnx3-1.fna&oh=f726ef5450c6f80c45b617b498ce5623&oe=6106A5BF"} />
+            <img src={"https://bit.ly/2V30PyH"} alt="Hook" />
             <p>Hook ถูกสร้างออกมาเพื่อการจัดการกับ State ปกติถ้าเราสร้าง Function Component และโยน props เข้าไปมันจะ render ออกมาได้อย่างเดียว
                 แต่ไม่สามารถ setState ต่างๆ ได้ ถ้าเราอยาก setState เราต้องเปลี่ยนจาก Function Component ให้เป็น Class Component เพื่อให้สามารถ
                 setState ต่างๆ ได้ ซึ่งการทำแบบนั้นทำให้เสียเวลามาก ดังนั้น hook จึงออกมาเพื่อแก้ปัญหานั้น จากภาพ Hook นั้นจะถูกสร้าง

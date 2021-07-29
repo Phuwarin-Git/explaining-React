@@ -4,7 +4,7 @@ export const functional = () => {
             <div style={{ margin: 20 }}>
                 <h1>Functional Component</h1>
                 <br />
-                <img src={"https://scontent.fcnx3-1.fna.fbcdn.net/v/t39.30808-6/187785005_4363084180420367_5582982146965710181_n.jpg?_nc_cat=108&ccb=1-3&_nc_sid=730e14&_nc_ohc=JEsKOj4woncAX8OZdg0&tn=oyhgz3zo1Wwi9hXg&_nc_ht=scontent.fcnx3-1.fna&oh=f8868ddd4f5470d56b74bb63d3931dec&oe=61080A25"} />
+                <img src={"https://bit.ly/376XyAP"} alt="FunctionalComponent" />
                 <br />
                 <br />
                 <p>Functional Component คือ การสร้าง component แบบปัจจุบัน ซึ่งไม่ต้องมีการ extends มาจาก React.component แล้ว </p>
@@ -18,10 +18,9 @@ export const functional = () => {
                 </p>
 
                 <h3>import แบบ Class Component</h3>
-                <img src={"https://scontent.fcnx3-1.fna.fbcdn.net/v/t39.30808-6/218239836_4363043657091086_1879748527072502764_n.jpg?_nc_cat=102&ccb=1-3&_nc_sid=730e14&_nc_ohc=GzINBzIm9sMAX8oN96B&_nc_ht=scontent.fcnx3-1.fna&oh=1dd7fb072ba910524da3d347909d1d10&oe=61073F98"} />
+                <img src={"https://bit.ly/3fajRdb"} alt="FunctionalComponent" />
                 <h3>import แบบ Functional Component</h3>
-                <img src={"https://scontent.fcnx3-1.fna.fbcdn.net/v/t39.30808-6/217616728_4363043053757813_7605800418420835344_n.jpg?_nc_cat=102&ccb=1-3&_nc_sid=730e14&_nc_ohc=4qZZKwi32EUAX-jyUtZ&_nc_ht=scontent.fcnx3-1.fna&oh=460055cf73a7a53cf8a99636c5657453&oe=6106E375"} />
-
+                <img src={"https://bit.ly/2V30lsn"} alt="FunctionalComponent" />
 
             </div>
 
