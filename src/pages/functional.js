@@ -1,14 +1,14 @@
 export const functional = () => {
     return (
         <div>
-            <div style={{ margin: 20 }}>
+            <div style={{ margin: 40 }}>
                 <h1>Functional Component</h1>
                 <br />
                 <img src={"https://bit.ly/376XyAP"} alt="FunctionalComponent" />
                 <br />
                 <br />
-                <p>Functional Component คือ การสร้าง component แบบปัจจุบัน ซึ่งไม่ต้องมีการ extends มาจาก React.component แล้ว </p>
-                <p>การสร้างนั้นจะง่ายและเขียนได้กระชับกว่า เริ่มด้วยการประกาศชื่อ class ตามภาพ const ClassName และตามด้วย {"= ()=>{}"} เพียงเท่านี้เราก็สร้าง Functional Component ได้แล้ว
+                <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Functional Component คือ การสร้าง component แบบปัจจุบัน ซึ่งไม่ต้องมีการ extends มาจาก React.component แล้ว </p>
+                <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;การสร้างนั้นจะง่ายและเขียนได้กระชับกว่า เริ่มด้วยการประกาศชื่อ class ตามภาพ const ClassName และตามด้วย {"= ()=>{}"} เพียงเท่านี้เราก็สร้าง Functional Component ได้แล้ว
                     ภายในก็จะสามารถสร้าง state ได้ แต่จะไม่เหมือนกับ Class Component ตรงที่ Functional component นั้น
                     สามารถใช้ hook ในการสร้าง state ได้ จะทำให้เราสามารถ เรียกใช้ state และ setState ได้ง่ายมาก ในส่วน
                     ของการสร้าง function นั้นก็สามารถทำได้เช่นกัน โดยการประกาศ const function name {"=()=>{}"}

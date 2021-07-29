@@ -1,13 +1,12 @@
 
 export const classCom = () => {
     return (
-        <div style={{ margin: 20 }}>
+        <div style={{ margin: 40 }}>
             <h1>Class Component</h1>
             <br />
             <img src={"https://bit.ly/3BS65pp"} alt="ClassComponent" />
             <br />
-            <br />
-            <p>Class component คือ การสร้าง component แบบเก่าซึ่งจะต้องมีการ extends มาจาก React.component </p>
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Class component คือ การสร้าง component แบบเก่าซึ่งจะต้องมีการ extends มาจาก React.component </p>
             <p>การสร้างต้องเริ่มด้วย class ตามด้วย ClassName และ extends React.Component ภายในเราจะสามารถสร้าง
                 state เพื่อเก็บ value ต่างๆได้ ซึ่งการสร้าง state ใน Class component นั้น จะต้อง สร้าง constructor()
                 ไว้เก็บค่าต่างๆ ซึ่งการสร้างแบบ class component นั้นจะเป็นการเขียน code ที่ยาวกว่าต่างจาก functional
@@ -20,8 +19,9 @@ export const classCom = () => {
             <img src={"https://bit.ly/3fajRdb"} alt="ClassComponent" />
             <h3>import แบบ Functional Component</h3>
             <img src={"https://bit.ly/2V30lsn"} alt="ClassComponent" />
-
-
+            <br /><br />
+            <br />
+            <br />
         </div>
 
 
