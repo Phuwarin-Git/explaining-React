@@ -28,6 +28,7 @@ export const styled = () => {
             <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                 และเวลานำมาใช้ก็เขียนชื่อ Component แบบนี้ได้เลยโดยไม่ต้องเขียน ClassName ให้ยุ่งยาก
             </p>
+            <br /><br /><br />
 
         </div>
     )
