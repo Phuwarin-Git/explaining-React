@@ -6,7 +6,6 @@ export const functional = () => {
                 <br />
                 <img src={"https://bit.ly/376XyAP"} alt="FunctionalComponent" />
                 <br />
-                <br />
                 <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Functional Component คือ การสร้าง component แบบปัจจุบัน ซึ่งไม่ต้องมีการ extends มาจาก React.component แล้ว </p>
                 <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;การสร้างนั้นจะง่ายและเขียนได้กระชับกว่า เริ่มด้วยการประกาศชื่อ class ตามภาพ const ClassName และตามด้วย {"= ()=>{}"} เพียงเท่านี้เราก็สร้าง Functional Component ได้แล้ว
                     ภายในก็จะสามารถสร้าง state ได้ แต่จะไม่เหมือนกับ Class Component ตรงที่ Functional component นั้น
