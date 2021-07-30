@@ -22,7 +22,7 @@ export const hook = () => {
             <br />
             <img src={"https://bit.ly/3iZw3Pf"} alt={"useEffect"} /><br /><br />
             <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ซึ่งนอกจาก useState แล้วยังมี useEffect อีกด้วย ซึ่ง useEffect คือจะใช้ตรวจการเปลี่ยนแปลงของ State
-                เมื่อ State นั้นมีการเปลี่ยนแปลงเมื่อไหร่คำสั่งที่เราเขียนไว้ก็จะทำงานทันทีจะยกตัวอย่างตามภาพด้านล่างเมื่อ State user
+                เมื่อ State นั้นมีการเปลี่ยนแปลงเมื่อไหร่คำสั่งที่เราเขียนไว้ก็จะทำงานทันทีจะยกตัวอย่างจากภาพเมื่อ State user
                 มีการเปลี่ยนแปลง คำสั่งที่อยู่ใน useEffect ก็จะทำงานว่าให้นำค่า User ที่ได้มาไปเก็บไว้ใน localStorage
             </p>
         </div>

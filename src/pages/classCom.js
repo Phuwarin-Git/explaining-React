@@ -7,7 +7,7 @@ export const classCom = () => {
             <img src={"https://bit.ly/3BS65pp"} alt="ClassComponent" />
             <br />
             <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Class component คือ การสร้าง component แบบเก่าซึ่งจะต้องมีการ extends มาจาก React.component </p>
-            <p>การสร้างต้องเริ่มด้วย class ตามด้วย ClassName และ extends React.Component ภายในเราจะสามารถสร้าง
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;การสร้างต้องเริ่มด้วย class ตามด้วย ClassName และ extends React.Component ภายในเราจะสามารถสร้าง
                 state เพื่อเก็บ value ต่างๆได้ ซึ่งการสร้าง state ใน Class component นั้น จะต้อง สร้าง constructor()
                 ไว้เก็บค่าต่างๆ ซึ่งการสร้างแบบ class component นั้นจะเป็นการเขียน code ที่ยาวกว่าต่างจาก functional
                 component ที่ถูกสร้างมาให้เขียนได้สั้นกว่าโดยการใช้ Hook และการสร้าง function ก็จะสร้างโดยประกาศชื่อ
